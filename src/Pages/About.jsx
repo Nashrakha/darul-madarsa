@@ -1,12 +1,15 @@
 import Navbar from "../Components/Navbar/Navbar"
-import Underconstruction from "../Components/Underconstruction/Underconstruction";
+import timer from "../assets/timer.png"
+
+
 function About() {
   return (
 <>
 <Navbar/>
-<Underconstruction/>
+<img src={timer} alt="" className="w-1/2 h-full mx-auto mt-44 md:mt-20"/>
+
 </>
   )
-}   
+}
 
 export default About

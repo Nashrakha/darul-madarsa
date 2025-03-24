@@ -1,5 +1,5 @@
 import Navbar from "../Components/Navbar/Navbar"
-import UnderConstruction from "../Components/Underconstruction/Underconstruction"
+import timer from "../assets/timer.png"
 
 
 
@@ -7,7 +7,7 @@ function Courses() {
   return (
    <>
    <Navbar/>
-<UnderConstruction/>
+      <img src={timer} alt="" className="w-1/2 h-full mx-auto mt-44 md:mt-20"/>
    </>
   )
 }
